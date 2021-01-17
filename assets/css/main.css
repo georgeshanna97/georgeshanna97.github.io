@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: rgb(32, 32, 32);
+		color: #888;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2631,3 +2631,9 @@ input, select, textarea {
 				}
 
 	}
+.job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+.job h4 {font-size: 110%; position: absolute; top: -0.25em; right: 0;}
+.job h3 {font-size: 110%; position: absolute; left: 0; top: 1em;}
+.job h2 {font-size: 130%; position: absolute; left: 0; top: -0.25em; text-transform: uppercase; letter-spacing: 2px; font-weight:bold}
+.job h1, h3, h4,p { color: rgb(10, 10, 10); }
+.job p {position: relative; margin: 0.75em 0 3em 0; top: 3em; left: 0;font-size: 100%; text-align: left;line-height: 25px}
